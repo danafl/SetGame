@@ -15,6 +15,16 @@
 		6D81EB681D6C6A41006CFAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D81EB661D6C6A41006CFAE5 /* LaunchScreen.storyboard */; };
 		6D81EB731D6C6A41006CFAE5 /* MadterCard2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB721D6C6A41006CFAE5 /* MadterCard2Tests.m */; };
 		6D81EB7E1D6C6A41006CFAE5 /* MadterCard2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB7D1D6C6A41006CFAE5 /* MadterCard2UITests.m */; };
+		6D81EB8D1D6C6B96006CFAE5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB8C1D6C6B96006CFAE5 /* Card.m */; };
+		6D81EB911D6C6BE6006CFAE5 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB901D6C6BE6006CFAE5 /* Deck.m */; };
+		6D81EB941D6C6C33006CFAE5 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB931D6C6C33006CFAE5 /* PlayingCard.m */; };
+		6D81EB9A1D6C6CE1006CFAE5 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB991D6C6CE1006CFAE5 /* PlayingCardDeck.m */; };
+		6D81EB9D1D6C70EA006CFAE5 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB9C1D6C70EA006CFAE5 /* CardMatchingGame.m */; };
+		6D81EBA01D72C986006CFAE5 /* SetGameCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EB9F1D72C986006CFAE5 /* SetGameCard.m */; };
+		6D81EBA31D72DFCA006CFAE5 /* SetGameCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EBA21D72DFCA006CFAE5 /* SetGameCardDeck.m */; };
+		6D81EBA61D72ED1C006CFAE5 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EBA51D72ED1C006CFAE5 /* PlayingCardViewController.m */; };
+		6D81EBA91D72EDB6006CFAE5 /* SetGameCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EBA81D72EDB6006CFAE5 /* SetGameCardViewController.m */; };
+		6D81EBAF1D740E68006CFAE5 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81EBAE1D740E68006CFAE5 /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D81EB551D6C6A41006CFAE5 /* MadterCard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadterCard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D81EB551D6C6A41006CFAE5 /* set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D81EB591D6C6A41006CFAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D81EB5B1D6C6A41006CFAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D81EB5C1D6C6A41006CFAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +55,32 @@
 		6D81EB641D6C6A41006CFAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D81EB671D6C6A41006CFAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D81EB691D6C6A41006CFAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D81EB6E1D6C6A41006CFAE5 /* MadterCard2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadterCard2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D81EB6E1D6C6A41006CFAE5 /* set.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = set.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D81EB721D6C6A41006CFAE5 /* MadterCard2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadterCard2Tests.m; sourceTree = "<group>"; };
 		6D81EB741D6C6A41006CFAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D81EB791D6C6A41006CFAE5 /* MadterCard2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadterCard2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D81EB791D6C6A41006CFAE5 /* set.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = set.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D81EB7D1D6C6A41006CFAE5 /* MadterCard2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadterCard2UITests.m; sourceTree = "<group>"; };
 		6D81EB7F1D6C6A41006CFAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D81EB8B1D6C6B96006CFAE5 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		6D81EB8C1D6C6B96006CFAE5 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		6D81EB8F1D6C6BE6006CFAE5 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		6D81EB901D6C6BE6006CFAE5 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		6D81EB921D6C6C33006CFAE5 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		6D81EB931D6C6C33006CFAE5 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		6D81EB981D6C6CE1006CFAE5 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		6D81EB991D6C6CE1006CFAE5 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		6D81EB9B1D6C70EA006CFAE5 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		6D81EB9C1D6C70EA006CFAE5 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		6D81EB9E1D72C986006CFAE5 /* SetGameCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetGameCard.h; path = Model/SetGameCard.h; sourceTree = "<group>"; };
+		6D81EB9F1D72C986006CFAE5 /* SetGameCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetGameCard.m; path = Model/SetGameCard.m; sourceTree = "<group>"; };
+		6D81EBA11D72DFCA006CFAE5 /* SetGameCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetGameCardDeck.h; path = Model/SetGameCardDeck.h; sourceTree = "<group>"; };
+		6D81EBA21D72DFCA006CFAE5 /* SetGameCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetGameCardDeck.m; path = Model/SetGameCardDeck.m; sourceTree = "<group>"; };
+		6D81EBA41D72ED1C006CFAE5 /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardViewController.h; path = Model/PlayingCardViewController.h; sourceTree = "<group>"; };
+		6D81EBA51D72ED1C006CFAE5 /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardViewController.m; path = Model/PlayingCardViewController.m; sourceTree = "<group>"; };
+		6D81EBA71D72EDB6006CFAE5 /* SetGameCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameCardViewController.h; sourceTree = "<group>"; };
+		6D81EBA81D72EDB6006CFAE5 /* SetGameCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameCardViewController.m; sourceTree = "<group>"; };
+		6D81EBAD1D740E68006CFAE5 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		6D81EBAE1D740E68006CFAE5 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +121,9 @@
 		6D81EB561D6C6A41006CFAE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D81EB551D6C6A41006CFAE5 /* MadterCard2.app */,
-				6D81EB6E1D6C6A41006CFAE5 /* MadterCard2Tests.xctest */,
-				6D81EB791D6C6A41006CFAE5 /* MadterCard2UITests.xctest */,
+				6D81EB551D6C6A41006CFAE5 /* set.app */,
+				6D81EB6E1D6C6A41006CFAE5 /* set.xctest */,
+				6D81EB791D6C6A41006CFAE5 /* set.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,13 +131,18 @@
 		6D81EB571D6C6A41006CFAE5 /* MadterCard2 */ = {
 			isa = PBXGroup;
 			children = (
-				6D81EB5B1D6C6A41006CFAE5 /* AppDelegate.h */,
-				6D81EB5C1D6C6A41006CFAE5 /* AppDelegate.m */,
+				6D81EBAD1D740E68006CFAE5 /* HistoryViewController.h */,
+				6D81EBAE1D740E68006CFAE5 /* HistoryViewController.m */,
 				6D81EB5E1D6C6A41006CFAE5 /* ViewController.h */,
 				6D81EB5F1D6C6A41006CFAE5 /* ViewController.m */,
+				6D81EBA41D72ED1C006CFAE5 /* PlayingCardViewController.h */,
+				6D81EBA51D72ED1C006CFAE5 /* PlayingCardViewController.m */,
+				6D81EBA71D72EDB6006CFAE5 /* SetGameCardViewController.h */,
+				6D81EBA81D72EDB6006CFAE5 /* SetGameCardViewController.m */,
 				6D81EB611D6C6A41006CFAE5 /* Main.storyboard */,
 				6D81EB641D6C6A41006CFAE5 /* Assets.xcassets */,
 				6D81EB661D6C6A41006CFAE5 /* LaunchScreen.storyboard */,
+				6D81EB8E1D6C6B9D006CFAE5 /* Model */,
 				6D81EB691D6C6A41006CFAE5 /* Info.plist */,
 				6D81EB581D6C6A41006CFAE5 /* Supporting Files */,
 			);
@@ -117,6 +152,8 @@
 		6D81EB581D6C6A41006CFAE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D81EB5B1D6C6A41006CFAE5 /* AppDelegate.h */,
+				6D81EB5C1D6C6A41006CFAE5 /* AppDelegate.m */,
 				6D81EB591D6C6A41006CFAE5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,12 +177,33 @@
 			path = MadterCard2UITests;
 			sourceTree = "<group>";
 		};
+		6D81EB8E1D6C6B9D006CFAE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D81EB9E1D72C986006CFAE5 /* SetGameCard.h */,
+				6D81EB9F1D72C986006CFAE5 /* SetGameCard.m */,
+				6D81EBA11D72DFCA006CFAE5 /* SetGameCardDeck.h */,
+				6D81EBA21D72DFCA006CFAE5 /* SetGameCardDeck.m */,
+				6D81EB9B1D6C70EA006CFAE5 /* CardMatchingGame.h */,
+				6D81EB9C1D6C70EA006CFAE5 /* CardMatchingGame.m */,
+				6D81EB8C1D6C6B96006CFAE5 /* Card.m */,
+				6D81EB8B1D6C6B96006CFAE5 /* Card.h */,
+				6D81EB8F1D6C6BE6006CFAE5 /* Deck.h */,
+				6D81EB921D6C6C33006CFAE5 /* PlayingCard.h */,
+				6D81EB981D6C6CE1006CFAE5 /* PlayingCardDeck.h */,
+				6D81EB991D6C6CE1006CFAE5 /* PlayingCardDeck.m */,
+				6D81EB931D6C6C33006CFAE5 /* PlayingCard.m */,
+				6D81EB901D6C6BE6006CFAE5 /* Deck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D81EB541D6C6A41006CFAE5 /* MadterCard2 */ = {
+		6D81EB541D6C6A41006CFAE5 /* set */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D81EB821D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2" */;
+			buildConfigurationList = 6D81EB821D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "set" */;
 			buildPhases = (
 				6D81EB511D6C6A41006CFAE5 /* Sources */,
 				6D81EB521D6C6A41006CFAE5 /* Frameworks */,
@@ -155,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = MadterCard2;
+			name = set;
 			productName = MadterCard2;
-			productReference = 6D81EB551D6C6A41006CFAE5 /* MadterCard2.app */;
+			productReference = 6D81EB551D6C6A41006CFAE5 /* set.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D81EB6D1D6C6A41006CFAE5 /* MadterCard2Tests */ = {
+		6D81EB6D1D6C6A41006CFAE5 /* setTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D81EB851D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2Tests" */;
+			buildConfigurationList = 6D81EB851D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "setTests" */;
 			buildPhases = (
 				6D81EB6A1D6C6A41006CFAE5 /* Sources */,
 				6D81EB6B1D6C6A41006CFAE5 /* Frameworks */,
@@ -173,14 +231,14 @@
 			dependencies = (
 				6D81EB701D6C6A41006CFAE5 /* PBXTargetDependency */,
 			);
-			name = MadterCard2Tests;
+			name = setTests;
 			productName = MadterCard2Tests;
-			productReference = 6D81EB6E1D6C6A41006CFAE5 /* MadterCard2Tests.xctest */;
+			productReference = 6D81EB6E1D6C6A41006CFAE5 /* set.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6D81EB781D6C6A41006CFAE5 /* MadterCard2UITests */ = {
+		6D81EB781D6C6A41006CFAE5 /* setUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D81EB881D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2UITests" */;
+			buildConfigurationList = 6D81EB881D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "setUITests" */;
 			buildPhases = (
 				6D81EB751D6C6A41006CFAE5 /* Sources */,
 				6D81EB761D6C6A41006CFAE5 /* Frameworks */,
@@ -191,9 +249,9 @@
 			dependencies = (
 				6D81EB7B1D6C6A41006CFAE5 /* PBXTargetDependency */,
 			);
-			name = MadterCard2UITests;
+			name = setUITests;
 			productName = MadterCard2UITests;
-			productReference = 6D81EB791D6C6A41006CFAE5 /* MadterCard2UITests.xctest */;
+			productReference = 6D81EB791D6C6A41006CFAE5 /* set.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D81EB501D6C6A41006CFAE5 /* Build configuration list for PBXProject "MadterCard2" */;
+			buildConfigurationList = 6D81EB501D6C6A41006CFAE5 /* Build configuration list for PBXProject "set" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D81EB541D6C6A41006CFAE5 /* MadterCard2 */,
-				6D81EB6D1D6C6A41006CFAE5 /* MadterCard2Tests */,
-				6D81EB781D6C6A41006CFAE5 /* MadterCard2UITests */,
+				6D81EB541D6C6A41006CFAE5 /* set */,
+				6D81EB6D1D6C6A41006CFAE5 /* setTests */,
+				6D81EB781D6C6A41006CFAE5 /* setUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,9 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D81EB941D6C6C33006CFAE5 /* PlayingCard.m in Sources */,
+				6D81EBA31D72DFCA006CFAE5 /* SetGameCardDeck.m in Sources */,
+				6D81EB911D6C6BE6006CFAE5 /* Deck.m in Sources */,
 				6D81EB601D6C6A41006CFAE5 /* ViewController.m in Sources */,
 				6D81EB5D1D6C6A41006CFAE5 /* AppDelegate.m in Sources */,
+				6D81EBA91D72EDB6006CFAE5 /* SetGameCardViewController.m in Sources */,
+				6D81EBAF1D740E68006CFAE5 /* HistoryViewController.m in Sources */,
+				6D81EBA01D72C986006CFAE5 /* SetGameCard.m in Sources */,
+				6D81EB9D1D6C70EA006CFAE5 /* CardMatchingGame.m in Sources */,
+				6D81EB9A1D6C6CE1006CFAE5 /* PlayingCardDeck.m in Sources */,
+				6D81EBA61D72ED1C006CFAE5 /* PlayingCardViewController.m in Sources */,
 				6D81EB5A1D6C6A41006CFAE5 /* main.m in Sources */,
+				6D81EB8D1D6C6B96006CFAE5 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +365,12 @@
 /* Begin PBXTargetDependency section */
 		6D81EB701D6C6A41006CFAE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D81EB541D6C6A41006CFAE5 /* MadterCard2 */;
+			target = 6D81EB541D6C6A41006CFAE5 /* set */;
 			targetProxy = 6D81EB6F1D6C6A41006CFAE5 /* PBXContainerItemProxy */;
 		};
 		6D81EB7B1D6C6A41006CFAE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D81EB541D6C6A41006CFAE5 /* MadterCard2 */;
+			target = 6D81EB541D6C6A41006CFAE5 /* set */;
 			targetProxy = 6D81EB7A1D6C6A41006CFAE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,8 +483,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MadterCard2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = lightricks.set;
+				PRODUCT_NAME = set;
 			};
 			name = Debug;
 		};
@@ -426,8 +494,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MadterCard2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = lightricks.set;
+				PRODUCT_NAME = set;
 			};
 			name = Release;
 		};
@@ -438,8 +506,8 @@
 				INFOPLIST_FILE = MadterCard2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadterCard2.app/MadterCard2";
+				PRODUCT_NAME = set;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/set.app/set";
 			};
 			name = Debug;
 		};
@@ -450,8 +518,8 @@
 				INFOPLIST_FILE = MadterCard2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadterCard2.app/MadterCard2";
+				PRODUCT_NAME = set;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/set.app/set";
 			};
 			name = Release;
 		};
@@ -461,7 +529,7 @@
 				INFOPLIST_FILE = MadterCard2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = set;
 				TEST_TARGET_NAME = MadterCard2;
 			};
 			name = Debug;
@@ -472,7 +540,7 @@
 				INFOPLIST_FILE = MadterCard2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.MadterCard2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = set;
 				TEST_TARGET_NAME = MadterCard2;
 			};
 			name = Release;
@@ -480,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D81EB501D6C6A41006CFAE5 /* Build configuration list for PBXProject "MadterCard2" */ = {
+		6D81EB501D6C6A41006CFAE5 /* Build configuration list for PBXProject "set" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D81EB801D6C6A41006CFAE5 /* Debug */,
@@ -489,29 +557,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D81EB821D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2" */ = {
+		6D81EB821D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "set" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D81EB831D6C6A41006CFAE5 /* Debug */,
 				6D81EB841D6C6A41006CFAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6D81EB851D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2Tests" */ = {
+		6D81EB851D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "setTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D81EB861D6C6A41006CFAE5 /* Debug */,
 				6D81EB871D6C6A41006CFAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6D81EB881D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "MadterCard2UITests" */ = {
+		6D81EB881D6C6A41006CFAE5 /* Build configuration list for PBXNativeTarget "setUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D81EB891D6C6A41006CFAE5 /* Debug */,
 				6D81EB8A1D6C6A41006CFAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
